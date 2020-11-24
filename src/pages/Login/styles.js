@@ -53,6 +53,27 @@ const styles = StyleSheet.create({
         height:150,
         width:150
       },
+      buttonSenha:{
+          backgroundColor:'#fff',
+          alignItems:'center',
+          marginHorizontal:40,
+          margin:'-2%'
+      },
+      
+      txtSenha:{
+          fontSize:15,
+          color:'#7233f0',
+          fontFamily:'Poppins_400Regular',
+          fontWeight:'900'
+      },
+    sectionSenha:{
+        padding:20,
+        alignItems:'center',
+        justifyContent:'center',
+        flexDirection:'row',
+        margin:10,
+    },
+    
 })
 
 export default styles

@@ -10,6 +10,7 @@ import Icon from 'react-native-vector-icons'
 import {Button} from 'react-native'
 import User from '../pages/User'
 import Relatorio from '../pages/Relatorio'
+import Forgot from '../pages/Forgot'
 
 const {Navigator, Screen} = createStackNavigator()
 
@@ -27,6 +28,7 @@ export default function AppStack({navigation}){
                 <Screen name="Register" component={Register} options={{headerTitle:'Cadastro',headerStyle:{backgroundColor:'#7233f0'}}}/>
                 <Screen name="Main" component={DrawerNavigation} options={{headerShown:false}}/>
                 <Screen name="User" component={User}/>
+                <Screen name="Forgot" component={Forgot} options={{headerTitle:'Recuperar Senha', headerStyle:{backgroundColor:'#7233f0'}}}/>
             
             </Navigator>
         </NavigationContainer>
