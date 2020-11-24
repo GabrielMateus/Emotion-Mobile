@@ -18,7 +18,7 @@ export default function AppStack({ navigation }) {
   return (
     <NavigationContainer>
       <Navigator
-        initialRouteName="Questões"
+        initialRouteName="Login"
         screenOptions={{
           headerStyle: { backgroundColor: "#A462F6" },
           headerTitleAlign: "center",
