@@ -12,7 +12,6 @@ import CustomDrawer from '../components/CustomDrawer';
     return (
         <Drawer.Navigator drawerContent={CustomDrawer} initialRouteName="Main">
           <Drawer.Screen name="Menu" component={Main}/>
-          <Drawer.Screen name="Perfil" component={User}/>
           <Drawer.Screen name="Relatorio" component={Relatorio}/>
         </Drawer.Navigator>
       
